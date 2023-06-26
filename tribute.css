@@ -1,0 +1,145 @@
+
+html, body {
+  font-family:Tahoma,Impact;
+  height: 100%;
+  margin: 30px 8px;
+  padding: 10px auto 15px;
+  
+}
+#main {
+  text-align: center;
+  padding-bottom: 30px;
+  background-color: #eeee;
+  padding: 15px 0;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  text-align: center;
+  font-size: 30px;
+  background-color: #04253cee;
+  color: white;
+}
+#title{
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  letter-spacing: 10px;
+}
+p{
+  font-size: 20px;
+  margin: 16px 0px;
+}
+#img-div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  height: 100%;
+}
+#image{
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 20px;
+}
+#img-caption{
+align-items: center;
+width: 1050px;
+height: auto;
+color: #04253cee;
+font-weight: bold;
+}
+#tribute-info {
+  margin-top: 16px;
+}
+#healine{
+  font-size: 18px;
+  margin: 50px 0px;
+  text-decoration: underline;
+}
+
+#list{
+  display: inline-block;
+  text-align: left;
+  font-size: 16px;
+  margin: 16px 0px;
+  width: 700px;
+  height: auto;
+}
+.num{
+  color: #04253cee;
+}
+#last{
+  display: inline-block;
+  text-align: left;
+  font-size: 16px;
+  margin: 16px 0px;
+  width: 700px;
+  height: auto;
+}
+#tribute-link {
+  color: rgb(85, 155, 240);
+  text-decoration: underline;
+}
+
+#tribute-link:hover {
+  color:#04253cee;
+}
+
+
+
+/* Media Queries */
+
+@media (max-width: 991px) {
+  #list,
+  #last {
+    width: auto;
+  }
+  #img-caption{
+    width: 80%;
+  }
+}
+
+@media (max-width: 600px) {
+  html, body {
+    margin: 10px;
+    padding: 0;
+  }
+  
+  .header {
+    font-size: 24px;
+  }
+  #img-caption{
+    width: 80%;
+  }
+  
+  #title {
+    font-size: 20px;
+    letter-spacing: 5px;
+  }
+  
+  p {
+    font-size: 16px;
+    margin: 10px 0px;
+  }
+  
+  #healine {
+    font-size: 16px;
+    margin: 30px 0px;
+  }
+  
+  #list,
+  #last {
+    font-size: 14px;
+    width: auto;
+    margin: 10px 0px;
+  }
+}
